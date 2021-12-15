@@ -15,6 +15,8 @@ Clone the git repository using SSH or HTTP
 
 Next open terminal run `cd Leaderboard`
 
+Run `npm install` to install project dependencies.
+
 Run `npm run build`
 
 Finally run `npm start` to start the server and load the website.
