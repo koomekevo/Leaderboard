@@ -4,7 +4,7 @@ const getScores = async (id) => {
   const scores = await response.json();
   return scores;
 };
-  
+
 const postScores = async (id, body) => {
   const url = `https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/${id}/scores`;
   await fetch(url, {
@@ -15,5 +15,5 @@ const postScores = async (id, body) => {
     },
   });
 };
-  
+
 export { getScores, postScores };
