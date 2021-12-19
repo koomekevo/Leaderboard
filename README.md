@@ -2,6 +2,8 @@
 
 > This is a Leaderboard project that aims to showcase ES6 and Webpack implemented using Gitflow.
 
+![screenshot](./app_screenshot.png)
+
 ## Built With
 
 - HTML
